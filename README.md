@@ -1,19 +1,24 @@
-Music Player App
+Music Application in C# with Microsoft SQL Server
+This repository contains a music application developed using C# and Microsoft SQL Server. The application provides a user-friendly interface for playing and managing music, leveraging a robust backend for data storage and retrieval.
 
-To run this application you have to open the login.sln C# file. You can find this file inside the login file.
-In case you want to open Model, View, Controller files , those are also inside the login file.
+Features
 
-After open the login.sln file through Visual Studio , you can run the program.
+Play, pause, stop, and skip music tracks
 
-First should have Microsoft SQL server management studio.
-Then you should open loginapp.sql file in SSMS. 
-After that, Execute to run the script and recreate the database/tables on the new server.
+Browse and search your music library
 
-Then Update the connection String,
-Change the connection string in your app to point to the local SQL Server instance on the new desktop.
-Your connection string should like this,
-you should update connection string on Registration.cs and LoginController.cs file.
+Create, edit, and manage playlists
 
-Data Source=DESKTOP-TJLBV3V\\SQLEXPRESS;Initial Catalog=loginapp;Integrated Security=True"
+Organize music by artist, album, or genre
 
-After all this work done then you can run the code and enjoy some music!
+Store and retrieve music metadata using SQL Server
+
+Intuitive and modern user interface
+
+Technologies Used
+
+C# (.NET Framework or .NET Core)
+
+Microsoft SQL Server for backend database
+
+Visual Studio for development
